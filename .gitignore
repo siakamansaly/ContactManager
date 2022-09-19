@@ -20,5 +20,5 @@
 ###< symfony/phpunit-bridge ###
 
 ###< diagrams.net ###
-/docs/sources/
+*.drawio.bkp
 ###> diagrams.net ###
