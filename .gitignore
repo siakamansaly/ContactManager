@@ -22,3 +22,7 @@
 ###< diagrams.net ###
 *.drawio.bkp
 ###> diagrams.net ###
+
+###< temp ###
+/docs/sources/tmp/
+###> temp ###
