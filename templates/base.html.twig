@@ -16,12 +16,16 @@
             <!-- Main Content -->
             <div id="content">
 
+                {% if app.user %}
                 {{ include('core/navbar.html.twig') }}
+                {% endif %}
+                
 
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
 
                     {# include('core/exemple.html.twig') #}
+                    {% block body %}{% endblock %}
 
                 </div>
                 <!-- /.container-fluid -->
